@@ -2,14 +2,17 @@
 
 namespace SampleSDK.Entities
 {
+    /// <summary>
+    /// Sample entity for testing.
+    /// </summary>
     public class Weather
     {
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
 
-        public float tempratureC { get; set; }
+        public float TemperatureC { get; set; }
 
-        public float tempratureF { get; set; }
+        public float TemperatureF { get; set; }
 
-        public string summery { get; set; }
+        public string Summary { get; set; }
     }
 }
